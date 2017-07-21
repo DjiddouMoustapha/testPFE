@@ -613,20 +613,20 @@ var AuthService = (function () {
     AuthService.prototype.suscribeUser = function (user) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
         headers.append('Content-Type', 'application/json');
-        return this.http.post('http://localhost:3000/users/suscribe', user, { headers: headers })
+        return this.http.post('https://hidden-lake-30109.herokuapp.com/users/suscribe', user, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     AuthService.prototype.authenticateUser = function (user) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
         headers.append('Content-Type', 'application/json');
-        return this.http.post('http://localhost:3000/users/login', user, { headers: headers })
+        return this.http.post('https://hidden-lake-30109.herokuapp.com/users/login', user, { headers: headers })
             .map(function (res) { return res.json(); });
     };
     /*getProfile(){
   
     let headers = new Headers();
     headers.append('Content-Type','application/json');
-    return this.http.get('http://localhost:3000/users/profile',{headers:headers})
+    return this.http.get('https://hidden-lake-30109.herokuapp.com/users/profile',{headers:headers})
     .map((res:Response)=> res.json);
     }*/
     AuthService.prototype.loadUser = function () {
@@ -650,7 +650,7 @@ var AuthService = (function () {
         localStorage.clear();
     };
     AuthService.prototype.getAllUsers = function () {
-        return this.http.get('http://localhost:3000/users/admin')
+        return this.http.get('https://hidden-lake-30109.herokuapp.com/users/admin')
             .map(function (res) { return res.json(); });
     };
     AuthService = __decorate([
