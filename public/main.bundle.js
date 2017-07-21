@@ -688,7 +688,7 @@ module.exports = "h1 {\r\n    font-family: \"Times New Roman\", Times, serif;\r\
 /***/ 676:
 /***/ (function(module, exports) {
 
-module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n    text-align: center;\r\n    margin-left: 145px;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\n\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
+module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n     margin-left: 40%;\r\n    \r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\n\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
 
 /***/ }),
 
@@ -709,7 +709,7 @@ module.exports = "h2 {\r\n    text-align: center;\r\n     font-family: \"Times N
 /***/ 679:
 /***/ (function(module, exports) {
 
-module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
+module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n    margin-left: 40%;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
 
 /***/ }),
 
