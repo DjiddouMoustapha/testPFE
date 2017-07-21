@@ -674,21 +674,21 @@ module.exports = ""
 /***/ 674:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "h2 {\r\n    text-align: center;\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\nthead {\r\n    background-color: cadetblue;\r\n    color: white;\r\n    font-style: normal;\r\n    \r\n}\r\ntable{\r\n    border: 2px;\r\n    \r\n}"
 
 /***/ }),
 
 /***/ 675:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "h1 {\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
 
 /***/ }),
 
 /***/ 676:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n    text-align: center;\r\n    margin-left: 145px;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\n\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
 
 /***/ }),
 
@@ -702,14 +702,14 @@ module.exports = ""
 /***/ 678:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "h2 {\r\n    text-align: center;\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\nthead {\r\n    background-color: cadetblue;\r\n    color: white;\r\n    font-style: normal;\r\n    \r\n}\r\ntable{\r\n    border: 2px;\r\n}"
 
 /***/ }),
 
 /***/ 679:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "form{\r\n    margin-left: 40%;\r\n}\r\nh2{\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}\r\nlabel{\r\n     font-family: \"Times New Roman\", Times, serif;\r\n    font-style: oblique;\r\n     font-weight: bold;\r\n}"
 
 /***/ }),
 
@@ -723,42 +723,42 @@ module.exports = "<app-navbar></app-navbar>\n\n<div class=\"container\">\n\t<fla
 /***/ 681:
 /***/ (function(module, exports) {
 
-module.exports = "<h3> Tous les utilisateurs  </h3>\n\n<div class=\"container\">\n  <h2>Bordered Table</h2>\n  <p>All users</p>            \n  <table class=\"table table-bordered\">\n    <thead>\n      <tr>\n        <th>login</th>\n        <th>ville</th>\n       \n      </tr>\n    </thead>\n    <tbody >\n      <tr *ngFor=\" let u of users \">\n        <td>{{u.login}}</td>\n        <td>{{u.ville}}</td>\n      \n      </tr>\n      \n    </tbody>\n  </table>\n</div>"
+module.exports = "<h2> Tous les utilisateurs  </h2>\n\n<div class=\"container\" >\n  \n             \n  <table class=\" table table-striped  table-bordered\" >\n    <thead>\n      <tr>\n        <th>login</th>\n           <th> password</th>\n        <th>ville</th>\n         \n      </tr>\n    </thead>\n    <tbody >\n      <tr *ngFor=\" let u of users \">\n        <td>{{u.login}}</td>\n          <td>{{u.password}}</td>\n        <td>{{u.ville}}</td>\n          \n      </tr>\n      \n    </tbody>\n  </table>\n</div>\n\n"
 
 /***/ }),
 
 /***/ 682:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\n\t\n<h1>  Test Projet de Fin d'Etude </h1>\n\n<p class=\"lead\"> Bienvenue dans l'application qui permet d'evalue certains de mes competances. <Strong> J'espère que vous aimé !</Strong> </p>\n\n<div>\n\t\t<a class=\"btn btn-info\" [routerLink]=\"['/suscribe']\"> Suscribe</a> <a class=\"btn btn-primary\" [routerLink]=\"['/login']\"> login</a>\n\n\n</div>\n\n</div>"
+module.exports = "<div class=\"jumbotron text-center\">\n\t\n<h1>  Test Projet de Fin d'Etude </h1>\n\n<p class=\"lead\"> Bienvenue dans l'application qui permet d'evaluer certains de mes compétences. <Strong> J'espère que vous aimer !</Strong> </p>\n\n<div>\n\t\t<a class=\"btn btn-info\" [routerLink]=\"['/suscribe']\"> Suscribe</a> <a class=\"btn btn-primary\" [routerLink]=\"['/login']\"> login</a>\n\n\n</div>\n\n</div>"
 
 /***/ }),
 
 /***/ 683:
 /***/ (function(module, exports) {
 
-module.exports = "  <h2 class=\"page-header\"> Login</h2>\n  <form class=\"form\"  (submit) =\"onLoginSubmit()\">\n    <div class=\"form-group\">\n      <label for=\"login\">login:</label>\n      <input type=\"text\" class=\"form-control\" [(ngModel)]=\"login\" name=\"login\" placeholder=\"Entrer votre email\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"pwd\">Password:</label>\n      <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" placeholder=\"Entrer votre password\">\n    </div> \n    <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n  </form>"
+module.exports = "<div class=\"row col-md-9\" >\n  <h2 class=\"page-header\"> Login</h2>\n  <form class=\"form\"  (submit) =\"onLoginSubmit()\">\n    <div class=\"form-group\">\n      <label for=\"login\">login:</label>\n      <input type=\"text\" class=\"form-control\" [(ngModel)]=\"login\" name=\"login\" placeholder=\"Entrer votre email\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"pwd\">Password:</label>\n      <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" placeholder=\"Entrer votre password\">\n    </div> \n    <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n  </form>\n  </div>"
 
 /***/ }),
 
 /***/ 684:
 /***/ (function(module, exports) {
 
-module.exports = " <nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a class=\"navbar-brand\" href=\"#\">TestPFE</a>\n    </div>\n    <ul class=\"nav navbar-nav\">\n      <li  [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n\n      <li *ngIf=\"authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n      <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/admin']\">Admin</a></li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n      <li *ngIf=\"!authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/suscribe']\"><span class=\"glyphicon glyphicon-user\"></span> Suscribe</a></li>\n\n      <li *ngIf=\"!authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/login']\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>\n      \n       <li *ngIf=\"authService.loggedin()\"><a (click)=\"onLogoutClick()\" href=\"#\"><span class=\"glyphicon glyphicon-log-in\"></span> logout</a></li>\n    </ul>\n  </div>\n</nav>"
+module.exports = " <nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a class=\"navbar-brand\" href=\"#\">TestPFE</a>\n    </div>\n    <ul class=\"nav navbar-nav\">\n      <li  [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n\n      <li *ngIf=\"authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n      <li *ngIf=\"authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/admin']\">Admin</a></li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n      <li *ngIf=\"!authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/suscribe']\"><span class=\"glyphicon glyphicon-user\"></span> Suscribe</a></li>\n\n      <li *ngIf=\"!authService.loggedin()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/login']\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>\n      \n       <li *ngIf=\"authService.loggedin()\"><a (click)=\"onLogoutClick()\" href=\"#\"><span class=\"glyphicon glyphicon-log-in\"></span> logout</a></li>\n    </ul>\n  </div>\n</nav>"
 
 /***/ }),
 
 /***/ 685:
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"user\">\n\t <h2 class=\"page-header\"> {{user.login}}</h2>\n\n\t <ul>\n\t \t<li class=\"list-group-item\"> Login : {{user.login}}</li>\n\t \t<li class=\"list-group-item\"> id : {{user.id}}</li>\n\n\n\t </ul>\n\n\n</div>\n"
+module.exports = "<div class=\"container\" *ngIf=\"user\">\n    \n\t    <h2> Profile Utilisateur </h2> \n <h3 class=\"page-header\"> {{user.login}}</h3>    \n    \n    <table class=\"table\">\n  <thead class=\"thead-inverse\">\n    <tr>\n      \n      <th>Email(login)</th>\n      <th>ville</th>\n      \n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n     \n      <td>{{user.login}}</td>\n      <td>{{user.ville}}</td>\n      \n    </tr>\n   \n  </tbody>\n</table>\n    \n    \n    \n    \n\n</div>\n"
 
 /***/ }),
 
 /***/ 686:
 /***/ (function(module, exports) {
 
-module.exports = "  <h2 class=\"page-header\"> Suscribe</h2>\n  <form class=\"form\"  (submit) =\"onSuscribeSubmit()\">\n    <div class=\"form-group\">\n      <label for=\"login\">login:</label>\n      <input type=\"text\" class=\"form-control\" [(ngModel)]=\"login\" name=\"login\" placeholder=\"Entrer votre email\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"pwd\">Password:</label>\n      <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" placeholder=\"Entrer votre password\">\n    </div>\n     <div class=\"form-group\">\n      <label for=\"pwd\">Ville:</label>\n      <input type=\"ville\" class=\"form-control\" [(ngModel)]=\"ville\" name=\"ville\" placeholder=\"Entrer votre ville\">\n    </div>\n    <div class=\"checkbox\">\n      <label><input type=\"checkbox\"> Remember me</label>\n    </div>\n    <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n  </form>"
+module.exports = "<div class=\"row col-md-9\" >\n  <h2 class=\"page-header\"> Suscribe</h2>\n  <form class=\"form\"  (submit) =\"onSuscribeSubmit()\">\n    <div class=\"form-group\">\n      <label for=\"login\">login:</label>\n      <input type=\"text\" class=\"form-control\" [(ngModel)]=\"login\" name=\"login\" placeholder=\"Entrer votre email\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"pwd\">Password:</label>\n      <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\" placeholder=\"Entrer votre password\">\n    </div>\n     <div class=\"form-group\">\n      <label for=\"pwd\">Ville:</label>\n      <input type=\"ville\" class=\"form-control\" [(ngModel)]=\"ville\" name=\"ville\" placeholder=\"Entrer votre ville\">\n    </div>\n    \n    <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n  </form>\n  <div >"
 
 /***/ }),
 
